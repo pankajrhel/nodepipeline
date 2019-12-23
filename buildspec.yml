@@ -9,7 +9,7 @@ phases:
       - npm install -g mocha
   pre_build:
     commands:
-      - echo Running linter
+      - echo Running linterr
       - npm run lint
   build:
     commands:
